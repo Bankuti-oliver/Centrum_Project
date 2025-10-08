@@ -72,7 +72,7 @@ a{
     width: 100%;
     overflow: hidden;
     height: 100%;
-    bottom: -1px;
+    bottom: 0;
     background-image: linear-gradient(to top, #0D0956 20%, #5F07A1 80%);
 }
 .bgTop {
