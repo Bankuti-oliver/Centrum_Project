@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Visitors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://hcaptcha.com/1/api.js" async defer></script>
+</head>
+<body>
+  <h1>Add Visitor</h1>
+
+  <form method="post" action="/">
+    <input type="text" name="user_name" placeholder="Your name" required><br><br>
+
+    <!-- hCaptcha -->
+    <div class="h-captcha" data-sitekey="3c68156e-3dfe-414c-9f1c-7ed8cfc077e2"></div><br>
+
+    <button type="submit">Add</button>
+  </form>
+
+  <h2>All Visitors</h2>
+  <ul>
+    {% for visitor in visitors %}
+      <li>{{ visitor.user_name }} ({{ visitor.user_id }}) - {{ visitor.created_at }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

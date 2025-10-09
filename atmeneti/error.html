@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/x-icon" href="../img/error.ico">
+
+    <title>Hiba történt!</title>
+
+    <style>
+        body {
+            text-align: center;
+            margin: 4rem;
+            background-color: #ffeeee; color: #900;
+        }
+        a {
+            text-decoration: none;
+            color: #900;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>⚠️ Hiba történt</h1>
+    <h2>Mi történt?</h2>
+    <p>{{ message }}</p>
+    <p>{{ errorCode }}</p>
+
+    <a href="/">⬅️ Vissza a főoldalra</a>
+</body>
+</html>
