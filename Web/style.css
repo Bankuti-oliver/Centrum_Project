@@ -4,35 +4,39 @@
     padding: 0;
     }
 
+.container{
+    width: 100%;
+}
+
 .title_text{
     text-align: center;
     font-size: 35px;
     z-index: 40;
     position: relative;
     color: white;
-    margin-top: 50px;
+    margin-top: 10px;
+    
 }
 
 nav{
    margin-top: 10px;
-   right:100%
+  position: relative;
+   z-index: 30;
+   width: 40%;
+
   
 }
 
 .nav_element{
-    border: 3px solid rgb(0, 0, 0);
-    margin: 1px;
+    border: 3px solid;
     z-index: 30;
-    position: fixed;
+    position: relative;
     background-color: white;
     color: black;
-    border-radius: 10%;
+    left: 90%;
+   
 }
 
-.dropdown-item::hover{
-    color: white;
-    background-color: #43C3FF ;
-}
 
 
 a{
@@ -72,7 +76,7 @@ a{
     width: 100%;
     overflow: hidden;
     height: 100%;
-    bottom: -1px;
+    bottom: 0;
     background-image: linear-gradient(to top, #0D0956 20%, #5F07A1 80%);
 }
 .bgTop {
