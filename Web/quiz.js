@@ -1,4 +1,4 @@
-    document.getElementById("scan-btn").addEventListener("click", () => {
+    document.getElementById("scan_btn").addEventListener("click", () => {
       fetch("/read_nfc")
         .then(res => res.json())
         .then(data => {
@@ -21,3 +21,4 @@
           document.getElementById("result").innerText = "hiba!";
         });
     });
+
