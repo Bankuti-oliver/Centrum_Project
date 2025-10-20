@@ -19,8 +19,7 @@
         <link rel="stylesheet" href="./style.css">
         <title>Feladat</title>
 
-  
-   <script type="module" src="main.js"></script>
+   <script src="app.js"></script>
 
     </head>
 
@@ -66,12 +65,13 @@
 
         <main>
           <div class="form_container">
-            <form class="Form_1 ">
+            <form id="Form_1" class="Form_1">
               <label for="name" >Név:</label><br>
-              <input type="text" id="name_input"> <br>
-                <input type="submit" id="form_btn" value="Létrehozás"><br>
+              <input type="text" name="name_input"   id="name_input">  <br>
+                <input type="button" id="form_btn" value="Létrehozás" onclick="kuldes();"><br>
                 <a id="next_page" href="quiz.html">Tovább</a>
             </form>
+            <div id="valasz"></div>
           </div>
         </main>
 
