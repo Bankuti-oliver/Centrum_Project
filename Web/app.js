@@ -20,6 +20,8 @@ async function kuldes() {
     console.log(result.msg);
     
 
+    
+
 }
 
 
