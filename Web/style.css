@@ -125,6 +125,16 @@ p{
     height: 50px;
 }
 
+#valasz{
+    z-index: 120;
+    position: relative;
+    width: auto;
+    height: 75px;
+    font-size: 16px;
+    color: black;
+    margin-top: 20px;
+}
+
 @keyframes move_wave {
     0% {
         transform: translateX(0) translateZ(0) scaleY(1)
