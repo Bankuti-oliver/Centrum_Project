@@ -142,13 +142,23 @@ p{
     width: auto;
     height: 75px;
     font-size: 16px;
-    color: black;
+    color: rgb(255, 255, 255);
     margin-top: 20px;
 }
 
-.quiz_container{
-
+.end_container{
+    width: 600px;
+    height: 300px;
+    background-color:  rgba(0, 0, 0, 0.4);
+    text-align: center;
+    z-index: 100;
+    position: relative;
+    border: 1px solid rgba(58, 58, 58, 0.4);
+    border-radius: 3%;
+    padding: 5px;
+    color: white;
 }
+
 
 @keyframes move_wave {
     0% {
